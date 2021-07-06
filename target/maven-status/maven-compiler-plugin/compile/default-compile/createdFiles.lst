@@ -1,0 +1,10 @@
+com\qa\pages\DeleteCutomer.class
+Utitity\eventListenClass.class
+com\qa\pages\EditCustomer.class
+Utitity\Uitil.class
+com\qa\pages\Customer.class
+com\qa\pages\Manager.class
+ExtentReport\ExtentReportClass.class
+Base\Base.class
+com\qa\pages\NewAccount.class
+com\qa\pages\Login.class

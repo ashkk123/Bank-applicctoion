@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="5" name="TestSuite" time="27.87" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="BankApplication"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/BankApplication/7/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\pc\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c5be0cf8d7e7cdfd"/>
+    <property name="POM_ARTIFACTID" value="test"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="D:\New folder (5)\lib\resources.jar;D:\New folder (5)\lib\rt.jar;D:\New folder (5)\lib\sunrsasign.jar;D:\New folder (5)\lib\jsse.jar;D:\New folder (5)\lib\jce.jar;D:\New folder (5)\lib\charsets.jar;D:\New folder (5)\lib\jfr.jar;D:\New folder (5)\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="test"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\pc\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="pc"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="BankApplication"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/BankApplication/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="sun.boot.library.path" value="D:\New folder (5)\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\pc\AppData\Local"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="pc"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="D:\New folder (5)\lib\endorsed"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\pc\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="D:\New folder (5)"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/BankApplication/7/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\pc\AppData\Local\Temp"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/BankApplication/7/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/BankApplication/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="E:\New folder (5)\jdk1.8.0_161"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\pc"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="PC-PC"/>
+    <property name="POM_GROUPID" value="test"/>
+    <property name="user.home" value="C:\Users\pc"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-BankApplication-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c5be0cf8d7e7cdfd"/>
+    <property name="=E:" value="E:\Jenkins"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\pc"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Users\pc\Downloads\New folder\apache-maven-3.5.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Informatica\10.1.0\clients\tools\datadirect;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Informatica\10.1.0\clients\tools\datadirect;C:\Informatica\10.1.0\clients\tools\datadirect;C:\Informatica\10.1.0\java\jre\bin\server;C:\Informatica\10.1.0\tools\odbcdrv;C:\Informatica\10.1.0\tools\jdbcdrv;C:\Informatica\10.1.0\tools\sharedlibs;C:\Informatica\10.1.0\tools\datadirect;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Python32;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\pc\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\pc\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 56416"/>
+    <property name="Path" value="C:\Users\pc\Downloads\New folder\apache-maven-3.5.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Informatica\10.1.0\clients\tools\datadirect;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Informatica\10.1.0\clients\tools\datadirect;C:\Informatica\10.1.0\clients\tools\datadirect;C:\Informatica\10.1.0\java\jre\bin\server;C:\Informatica\10.1.0\tools\odbcdrv;C:\Informatica\10.1.0\tools\jdbcdrv;C:\Informatica\10.1.0\tools\sharedlibs;C:\Informatica\10.1.0\tools\datadirect;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Python32"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="INFA_TRUSTSTORE" value="C:\Informatica\10.1.0\clients\shared\security"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
+    <property name="CI" value="true"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\pc\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/BankApplication/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="D:\New folder (5)\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\pc\workspace\guru99"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/BankApplication/"/>
+    <property name="LOGONSERVER" value="\\PC-PC"/>
+    <property name="USERDOMAIN" value="pc-PC"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\pc\.jenkins\workspace\BankApplication@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\pc\.jenkins\workspace\BankApplication"/>
+    <property name="maven3.interceptor.common" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase classname="com.qa.test.CustomerTest" name="VerifyLabel" time="1.901"/>
+  <testcase classname="com.qa.test.LoginPageTest" name="VerifyUserLogin" time="2.838"/>
+  <testcase classname="com.qa.test.ManagerTest" name="ValidateTitle" time="0.019"/>
+  <testcase classname="com.qa.test.LoginPageTest" name="VerifyLoginPageTitle" time="0.025"/>
+  <testcase classname="com.qa.test.ManagerTest" name="VerifyCuurentUserName" time="2.413">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]&apos; is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6453ec173237c4ea65cf8b8123efc442
+*** Element info: {Using=xpath, value=//td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]&apos; is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6453ec173237c4ea65cf8b8123efc442
+*** Element info: {Using=xpath, value=//td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.qa.pages.Manager.VerifyUserName(Manager.java:88)
+	at com.qa.test.ManagerTest.VerifyCuurentUserName(ManagerTest.java:56)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.guru99.com/v4/&apos;
+Navigated to:&apos;https://demo.guru99.com/v4/&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.name: btnLogin
+Found Element By : By.name: btnLogin
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6453ec173237c4ea65cf8b8123efc442)] -&gt; name: btnLogin]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6453ec173237c4ea65cf8b8123efc442)] -&gt; name: btnLogin]
+Trying to find Element By : By.xpath: //td[text()=&apos;Manger Id : mngr338473&apos;]
+Found Element By : By.xpath: //td[text()=&apos;Manger Id : mngr338473&apos;]
+Trying to find Element By : By.xpath: //td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]
+Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]&apos; is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6453ec173237c4ea65cf8b8123efc442
+*** Element info: {Using=xpath, value=//td//marquee[text()=&apos;Welcome To Manager&apos;s Page of Guru99 Bank&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 43694
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2021 1:39:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.test.ManagerTest" name="VerifyContactsLink" time="1.563"/>
+  <testcase classname="com.qa.test.CustomerTest" name="CreateNewContact" time="5.482">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c74bc34b6f19661027e24aa4deb5563e
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c74bc34b6f19661027e24aa4deb5563e
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.qa.pages.Customer.CustomerSucessfullyRegiseted(Customer.java:120)
+	at com.qa.test.CustomerTest.CreateNewContact(CustomerTest.java:70)
+</failure>
+    <system-out>4
+9
+ashi
+
+12/12/1982
+
+10 sindhi
+
+kota
+
+Raj
+
+324007
+
+8390999693
+
+aashakota27@gmail.com
+
+134
+
+matr
+
+12/02/1988
+
+10 shyu
+
+kota
+
+Raj
+
+324007
+
+83909999
+
+aashakota88@gmail.com
+
+2344
+
+koi
+
+12/02/1990
+
+10 shyu
+
+kota
+
+Raj
+
+324007
+
+83909999
+
+aashakota49@gmail.com
+
+2344
+
+knim
+
+12/02/1981
+
+10 shyu
+
+kota
+
+Raj
+
+324007
+
+83909999
+
+aashakota99@gmail.com
+
+2344
+
+Before navigating to: &apos;https://demo.guru99.com/v4/&apos;
+Navigated to:&apos;https://demo.guru99.com/v4/&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.name: btnLogin
+Found Element By : By.name: btnLogin
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; name: btnLogin]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; name: btnLogin]
+Trying to find Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Found Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;name&apos;]
+Found Element By : By.xpath: //input[@name=&apos;name&apos;]
+Trying to find Element By : By.xpath: //input[@value=&apos;f&apos;]
+Found Element By : By.xpath: //input[@value=&apos;f&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Found Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Trying to find Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Found Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;city&apos;]
+Found Element By : By.xpath: //input[@name=&apos;city&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;state&apos;]
+Found Element By : By.xpath: //input[@name=&apos;state&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Found Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c74bc34b6f19661027e24aa4deb5563e)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Trying to find Element By : By.xpath: //p[text()=&apos;Customer Registered Successfully!!!&apos;]
+Exception occured: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c74bc34b6f19661027e24aa4deb5563e
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 5802
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2021 1:39:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.test.CustomerTest" name="CreateNewContact" time="5.422">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43e74193ebbdfcad10a4c5369453292c
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43e74193ebbdfcad10a4c5369453292c
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.qa.pages.Customer.CustomerSucessfullyRegiseted(Customer.java:120)
+	at com.qa.test.CustomerTest.CreateNewContact(CustomerTest.java:70)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.guru99.com/v4/&apos;
+Navigated to:&apos;https://demo.guru99.com/v4/&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.name: btnLogin
+Found Element By : By.name: btnLogin
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; name: btnLogin]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; name: btnLogin]
+Trying to find Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Found Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;name&apos;]
+Found Element By : By.xpath: //input[@name=&apos;name&apos;]
+Trying to find Element By : By.xpath: //input[@value=&apos;f&apos;]
+Found Element By : By.xpath: //input[@value=&apos;f&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Found Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Trying to find Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Found Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;city&apos;]
+Found Element By : By.xpath: //input[@name=&apos;city&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;state&apos;]
+Found Element By : By.xpath: //input[@name=&apos;state&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Found Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (43e74193ebbdfcad10a4c5369453292c)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Trying to find Element By : By.xpath: //p[text()=&apos;Customer Registered Successfully!!!&apos;]
+Exception occured: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43e74193ebbdfcad10a4c5369453292c
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 35249
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2021 1:40:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.test.CustomerTest" name="CreateNewContact" time="3.981">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 791ce7c39072fd256644a482b0a5dfc3
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 791ce7c39072fd256644a482b0a5dfc3
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.qa.pages.Customer.CustomerSucessfullyRegiseted(Customer.java:120)
+	at com.qa.test.CustomerTest.CreateNewContact(CustomerTest.java:70)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.guru99.com/v4/&apos;
+Navigated to:&apos;https://demo.guru99.com/v4/&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.name: btnLogin
+Found Element By : By.name: btnLogin
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; name: btnLogin]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; name: btnLogin]
+Trying to find Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Found Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;name&apos;]
+Found Element By : By.xpath: //input[@name=&apos;name&apos;]
+Trying to find Element By : By.xpath: //input[@value=&apos;f&apos;]
+Found Element By : By.xpath: //input[@value=&apos;f&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Found Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Trying to find Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Found Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;city&apos;]
+Found Element By : By.xpath: //input[@name=&apos;city&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;state&apos;]
+Found Element By : By.xpath: //input[@name=&apos;state&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Found Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (791ce7c39072fd256644a482b0a5dfc3)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Trying to find Element By : By.xpath: //p[text()=&apos;Customer Registered Successfully!!!&apos;]
+Exception occured: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 791ce7c39072fd256644a482b0a5dfc3
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37383
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2021 1:40:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.test.CustomerTest" name="CreateNewContact" time="4.226">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22bc94e252d4fd2e73b41fc8246d1114
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22bc94e252d4fd2e73b41fc8246d1114
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.qa.pages.Customer.CustomerSucessfullyRegiseted(Customer.java:120)
+	at com.qa.test.CustomerTest.CreateNewContact(CustomerTest.java:70)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.guru99.com/v4/&apos;
+Navigated to:&apos;https://demo.guru99.com/v4/&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;uid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.name: btnLogin
+Found Element By : By.name: btnLogin
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; name: btnLogin]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; name: btnLogin]
+Trying to find Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Found Element By : By.xpath: //a[text()=&apos;New Customer&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; xpath: //a[text()=&apos;New Customer&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;name&apos;]
+Found Element By : By.xpath: //input[@name=&apos;name&apos;]
+Trying to find Element By : By.xpath: //input[@value=&apos;f&apos;]
+Found Element By : By.xpath: //input[@value=&apos;f&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; xpath: //input[@value=&apos;f&apos;]]
+Trying to find Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Found Element By : By.xpath: //input[@name=&apos;dob&apos;]
+Trying to find Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Found Element By : By.xpath: //textarea[@name=&apos;addr&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;city&apos;]
+Found Element By : By.xpath: //input[@name=&apos;city&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;state&apos;]
+Found Element By : By.xpath: //input[@name=&apos;state&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;pinno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Found Element By : By.xpath: //input[@name=&apos;telephoneno&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Found Element By : By.xpath: //input[@name=&apos;emailid&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Found Element By : By.xpath: //input[@name=&apos;sub&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (22bc94e252d4fd2e73b41fc8246d1114)] -&gt; xpath: //input[@name=&apos;sub&apos;]]
+Trying to find Element By : By.xpath: //p[text()=&apos;Customer Registered Successfully!!!&apos;]
+Exception occured: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=91.0.4472.114): Email Address Already Exist !!
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;PC-PC&apos;, ip: &apos;192.168.106.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22bc94e252d4fd2e73b41fc8246d1114
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 4649
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2021 1:41:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
